@@ -1,0 +1,22 @@
+##################################################
+# Exploit Title: Retriction File Upload (bypass shell upload)
+# Google Dork : "Design By Riser Infotech"
+# Date: 08-04-2019
+# Exploit Author: P41J0
+# Tested on: KALI LINUX / Mozilla Firefox 
+##################################################
+
+POC : 
+# exploit : admin/item_add.php
+
+Example :
+# example.com/admin/item_add.php
+POC 1
+# upload backdoor extintion .php .php5 .pjpeg (use extention bypass)
+# file backdoor : example.com/image  or example.com/admin/images
+ POC 2
+# use tamper data or burpsuit
+# example.com/admin/item_add.php
+# upload your backdoor with bypass extention like : backdoor.jpg
+
+example live target : http://chequedishonour.com
